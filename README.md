@@ -1,4 +1,6 @@
-# AWS Rekognition Labels Generator ☁️🖼️
+AWS project ☁️ | Image recognition with Amazon Rekognition + S3 + Python
+
+This project demonstrates how to build an image label generator using AWS Rekognition, S3, and Python (boto3). It showcases skills in cloud architecture, serverless AI services, and automation. Upload an image to S3, run the script, and get back labels with confidence scores. Built as part of my AWS Cloud learning portfolio.
 
 Detect objects, scenes, and concepts in your images using **Amazon Rekognition**.  
 This repo walks you end-to-end: S3 setup → CLI config → Python code → results in under 30 minutes (and Free Tier friendly).

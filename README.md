@@ -41,7 +41,7 @@ This repo walks you end-to-end: S3 setup → CLI config → Python code → resu
 
 ```bash
 # 1) Clone and install
-git clone <YOUR_REPO_URL>
+
 cd aws-rekognition-labels-generator
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -116,38 +116,6 @@ aws-rekognition-labels-generator/
 │  └─ architecture.png     # add your diagram here (optional)
 └─ screenshots/            # put example images here (optional)
 ```
-
----
-
-## 🖥 Add to Your Portfolio
-Link the repo and showcase a screenshot + short description. Example HTML card:
-
-```html
-<article class="project-card">
-  <img src="/images/rekognition-cover.png" alt="Rekognition Labels Generator cover">
-  <h3>AWS Rekognition Labels Generator</h3>
-  <p>Python script that calls Amazon Rekognition to label S3-hosted images, printing results with confidence scores.</p>
-  <a href="https://github.com/USERNAME/aws-rekognition-labels-generator" target="_blank" rel="noopener">View on GitHub</a>
-</article>
-```
-
-Or React (Next.js):
-
-```jsx
-export default function ProjectCard() {
-  return (
-    <div className="rounded-2xl p-5 shadow">
-      <h3 className="text-xl font-semibold">AWS Rekognition Labels Generator</h3>
-      <p className="mt-2">Labels S3 images with Amazon Rekognition (Python + boto3).</p>
-      <a className="mt-3 inline-block underline"
-         href="https://github.com/USERNAME/aws-rekognition-labels-generator"
-         target="_blank" rel="noreferrer">View on GitHub</a>
-    </div>
-  );
-}
-```
-
----
 
 ## 📝 License
 MIT (or your choice).

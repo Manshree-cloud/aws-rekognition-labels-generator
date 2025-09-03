@@ -22,8 +22,8 @@ This repo walks you end-to-end: S3 setup → CLI config → Python code → resu
            |
            ---> S3 (image source)
 ```
-
-_Add your diagram at `docs/architecture.png` (optional)._
+![Architecture](docs/architecture.png)
+![Sample](screenshots/sample.png)
 
 ---
 

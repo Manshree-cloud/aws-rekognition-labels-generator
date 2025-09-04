@@ -117,10 +117,6 @@ aws-rekognition-labels-generator/
 └─ screenshots/            # put example images here (optional)
 ```
 
-## 📝 License
-MIT (or your choice).
-
----
 
 ## 🙌 Credits
 Built by Manshree as part of an AWS learning portfolio.
